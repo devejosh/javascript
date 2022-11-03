@@ -19,7 +19,7 @@ console.log("Body mass index for Gor is " + bmi_gor);
 const markHigherBMI = bmi_mark > bmi_gor;
 
 if (markHigherBMI === true) {
-  console.log(markHigherBMI + ", Mark has a higher BMI than Gor");
+  console.log(`Mark's BMI (${bmi_mark}) is higher than Gor's BMI ${bmi_gor}`);
 } else {
-  console.log(markHigherBMI + ", Gor has a higher BMI than Mark");
+  console.log(`Gor's BMI (${bmi_gor}) is higher than Mark's BMI (${bmi_mark})`);
 }
