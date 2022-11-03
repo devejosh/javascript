@@ -7,5 +7,6 @@ const detail =
 console.log(detail);
 
 console.log("Using template literals now");
+console.log("---------------------------");
 const tempLiterals = `I'm ${name}, my age is ${age} and I was born in the year ${byear}`;
 console.log(tempLiterals);
